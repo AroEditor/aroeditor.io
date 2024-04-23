@@ -33,7 +33,7 @@ export default function Home() {
       <div className="relative flex max-w-7xl flex-1 flex-col items-center justify-between gap-10 px-6 py-36 md:w-full md:flex-row lg:gap-12">
         <div className="max-w-xl">
           <div className="mb-8 flex justify-start">
-            <div className="relative rounded-full bg-[#c4c4ed] px-3 py-1 text-sm font-medium leading-6 text-foreground">
+            <div className="relative rounded-full bg-[#DEDBFE] px-3 py-1 text-sm font-medium leading-6 text-foreground">
               Where documentation is made simple
             </div>
           </div>
@@ -42,7 +42,10 @@ export default function Home() {
             <p className="mt-6 text-lg leading-8">Eliminating the need to code to compose documents and text.</p>
             <div className="mt-10 flex items-center gap-x-6">
               <a
-                className={cn(buttonVariants({ variant: "secondary", size: "lg" }), "font-semibold")}
+                className={cn(
+                  buttonVariants({ variant: "secondary", size: "lg" }),
+                  "bg-[#B37AFB] font-semibold text-primary-foreground hover:bg-[#B37AFB]/90"
+                )}
                 href={"https://app.aroeditor.io/auth/signup"}
               >
                 Get Started
