@@ -30,17 +30,17 @@ export default function Home() {
         </nav>
       </header>
 
-      <div className="relative flex max-w-7xl flex-1 flex-col items-center justify-between gap-10 px-6 py-36 md:w-full md:flex-row lg:gap-12">
-        <div className="max-w-xl">
-          <div className="mb-8 flex justify-start">
+      <div className="relative flex max-w-7xl flex-1 flex-col items-center justify-center gap-10 px-6 py-36 md:w-full md:flex-row lg:gap-12">
+        <div className="flex max-w-xl flex-col justify-center">
+          <div className="mb-8 flex justify-center">
             <div className="relative rounded-full bg-[#DEDBFE] px-3 py-1 text-sm font-medium leading-6 text-foreground">
               Where documentation is made simple
             </div>
           </div>
-          <div className="space-y-4 text-left lg:space-y-8">
+          <div className="space-y-4 text-center lg:space-y-8">
             <h1 className="font-serif text-5xl font-bold lg:text-6xl">The No-code Typesetting Editor</h1>
             <p className="mt-6 text-lg leading-8">Eliminating the need to code to compose documents and text.</p>
-            <div className="mt-10 flex items-center gap-x-6">
+            <div className="mt-10 flex items-center justify-center gap-x-6">
               <a
                 className={cn(
                   buttonVariants({ variant: "secondary", size: "lg" }),
@@ -53,7 +53,7 @@ export default function Home() {
             </div>
           </div>
         </div>
-        <div className={"aspect-video h-[unset] w-full bg-gray-300 md:h-56 md:w-[unset] lg:h-72"} />
+        {/*<div className={"aspect-video h-[unset] w-full bg-gray-300 md:h-56 md:w-[unset] lg:h-72"} />*/}
       </div>
     </div>
   );
