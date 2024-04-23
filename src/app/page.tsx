@@ -30,7 +30,7 @@ export default function Home() {
         </nav>
       </header>
 
-      <div className="relative flex flex-1 flex-col items-center justify-center gap-10 px-6 py-36 md:flex-row lg:gap-12">
+      <div className="relative flex max-w-7xl flex-1 flex-col items-center justify-between gap-10 px-6 py-36 md:w-full md:flex-row lg:gap-12">
         <div className="max-w-xl">
           <div className="mb-8 flex justify-start">
             <div className="relative rounded-full bg-[#c4c4ed] px-3 py-1 text-sm font-medium leading-6 text-foreground">
